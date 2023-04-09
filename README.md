@@ -1,4 +1,4 @@
-### Ex-04-Multivariate-Analysis
+## Ex-04-Multivariate-Analysis
 ### AIM
 To perform Multivariate EDA on the given data set.
 
@@ -31,9 +31,9 @@ Find the pairwise correlation of all columns in the dataframe.corr()
 Save the final data set into the file
 
 ### PROGRAM:
+```
 Developed by: D.Vinitha
 Registration Number:212221230175
-```
 Multivariate EDA - SuperStore.csv
 import pandas as pd
 import numpy as np
@@ -112,6 +112,6 @@ sns.heatmap(df.corr(),annot=True)
 ![Screenshot 2023-04-09 214751](https://user-images.githubusercontent.com/121166004/230784443-06222a2d-2c2e-484f-8249-2f88bfc55c59.png)
 
 
-RESULT
+### RESULT
 Thus the program to perform EDA on the given data set is successfully executed.
 
